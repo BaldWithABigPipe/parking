@@ -1,0 +1,132 @@
+/* Footer - Mobile First */
+.footer {
+  background: #081f4d;
+  border-top: 2px solid var(--color-border-light);
+  padding: var(--spacing-lg) 0;
+}
+
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-md);
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--color-text);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.footer__logo-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.footer__logo-text {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+.footer__copyright {
+  font-size: 0.75rem;
+  font-family: var(--font-body);
+  color: var(--color-text-light);
+  text-align: center;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Responsive breakpoints */
+@media (min-width: 400px) {
+  .footer {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .footer__logo {
+    font-size: 1.25rem;
+  }
+  
+  .footer__logo-icon {
+    width: 28px;
+    height: 28px;
+  }
+  
+
+  
+  .footer__copyright {
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .footer__container {
+    padding: 0 var(--container-padding);
+  }
+  
+  .footer__content {
+    margin-bottom: var(--spacing-lg);
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: var(--spacing-2xl) 0;
+  }
+  
+  .footer__logo {
+    font-size: 1.375rem;
+  }
+  
+  .footer__logo-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+
+  
+  .footer__copyright {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .footer__container {
+    padding: 0 var(--container-padding);
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer__container {
+    padding: 0 var(--container-padding);
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer__container {
+    max-width: 1200px;
+    padding: 0 var(--container-padding);
+  }
+}
+
+@media (min-width: 1600px) {
+  .footer__container {
+    max-width: 1400px;
+    padding: 0 var(--container-padding);
+  }
+}
